@@ -10,7 +10,7 @@ $ az login
 Docker:
 ```
 $ az acr login –name hicollege
-$ docker run hicollege.azurecr.io/weather:v1
+$ docker run hicollege.azurecr.io/weather:0.0.1-SNAPSHOT
 ```
 Kubernetes:
 ```
