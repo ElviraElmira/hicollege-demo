@@ -1,0 +1,11 @@
+version: '3'
+services:
+  hello:
+    image: hello:local
+    ports:
+      - "8080:8080"
+    environment:
+      weatherUrl: http://weather:8080/weather
+
+  weather:
+    image: weather:local
